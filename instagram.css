@@ -1,0 +1,148 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 30px;
+  border-bottom: 2px solid #d3d3d3;
+  padding-bottom: 10px;
+}
+
+.header .logo {
+  height: 100%;
+}
+
+.header .search {
+  padding: 3px;
+  border: 2px solid gray;
+  border-radius: 2px;
+}
+
+.header .icon-list {
+  height: 100%;
+}
+
+.story-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0% 20%;
+  margin-top: 10px;
+  height: 20%;
+}
+
+.story-container .story-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story-container .story {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: gray;
+  border: 2px solid skyblue;
+}
+
+.story-container .story-owner {
+  font-size: 8px;
+  margin-top: 2px;
+}
+
+.article-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 10px auto;
+  border: 2px solid lightgray;
+}
+
+.article-container .profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20px;
+  margin: 5px 2px;
+}
+
+.profile {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.prof-name {
+  font-size: 14px;
+  margin-left: 3px;
+  font-weight: bold;
+}
+
+.prof-img {
+  height: 100%;
+  border-radius: 50%;
+}
+
+.dots {
+  transform: rotate(90deg);
+  width: 20px;
+  height: 20px;
+}
+
+.article {
+  display: flex;
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+.button {
+  display: flex;
+  width: 7%;
+}
+.comment-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 0px;
+  width: 100%;
+}
+
+.smile {
+  display: flex;
+  width: 24px;
+  height: 24px;
+}
+
+.comment {
+  margin-left: 3px;
+  height: 25px;
+  border: none;
+  width: 80%;
+  padding: 2px;
+}
+
+.comment-button {
+  border: none;
+  background-color: rgb(0, 0, 0, 0);
+  color: blue;
+  opacity: 50%;
+  margin-left: 20px;
+}
+
+.footer-message {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  font-size: 15px;
+}
